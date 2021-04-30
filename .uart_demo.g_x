@@ -1,0 +1,119 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Includes</name>
+      <values lines_count="9">
+        <Line>"${ProjDirPath}/SDK/platform/drivers/src/clock/S32K1xx"</Line>
+        <Line>"${ProjDirPath}/SDK/rtos/osif/"</Line>
+        <Line>"${ProjDirPath}/SDK/rtos/FreeRTOS_S32K/Source/include"</Line>
+        <Line>"${ProjDirPath}/SDK/rtos/FreeRTOS_S32K/Source/portable/GCC/ARM_CM4F"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/common"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/S32K144/include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/S32K144/startup"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Symbols</name>
+      <values lines_count="1">
+        <Line>USING_OS_FREERTOS</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_S32K144_100"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="SDK/platform/devices/status.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646414" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/message_buffer.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066178" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/platform/devices/common/s32_core_cm4.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646414" FileType="1048576" CompNumb="1" />
+      <File Name="Documentation/uart_demo.txt" FileDate="2021-04-30, 09:12:58" FileAge="1619745178711" FileType="3072" />
+      <File Name="SDK/platform/drivers/inc/clock.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646398" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/drivers/src/edma/edma_irq.h" FileDate="2021-04-28, 14:52:25" FileAge="1619592745751" FileType="1048576" CompNumb="6" />
+      <File Name="SDK/platform/drivers/src/edma/edma_irq.c" FileDate="2021-04-28, 14:52:25" FileAge="1619592745735" FileType="1048576" CompNumb="6" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646320" FileType="1048576" CompNumb="2" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066343" FileType="45637" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/scg_hw_access.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646383" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/timers.c" FileDate="2021-04-29, 13:11:06" FileAge="1619673066123" FileType="1048576" CompNumb="10" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2021-04-28, 14:50:46" FileAge="1619592646461" FileType="45637" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/list.c" FileDate="2021-04-29, 13:11:06" FileAge="1619673066073" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/deprecated_definitions.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066148" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pmc_hw_access.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646383" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/devices/devassert.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646398" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/portable/GCC/ARM_CM4F/port.c" FileDate="2021-04-29, 13:11:06" FileAge="1619673066303" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/queue.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066233" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/platform/drivers/src/lpuart/lpuart_driver.c" FileDate="2021-04-28, 14:52:25" FileAge="1619592745782" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646336" FileType="1048576" CompNumb="2" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2021-04-28, 14:52:25" FileAge="1619592745860" FileType="45637" CompNumb="3" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/mpu_prototypes.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066183" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646398" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/platform/drivers/src/pins/pins_port_hw_access.c" FileDate="2021-04-28, 14:50:46" FileAge="1619592646336" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/rtos/osif/osif_baremetal.c" FileDate="1970-01-01, 07:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2021-04-28, 14:52:25" FileAge="1619592745876" FileType="45637" CompNumb="3" />
+      <File Name="SDK/platform/drivers/src/pins/pins_driver.c" FileDate="2021-04-28, 14:50:46" FileAge="1619592646304" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/devices/S32K144/include/S32K144_features.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646445" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/event_groups.c" FileDate="2021-04-29, 13:11:06" FileAge="1619673066063" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/portable.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066213" FileType="1048576" CompNumb="10" />
+      <File Name="Sources/main.c" FileDate="2021-04-29, 15:46:36" FileAge="1619682396367" FileType="128" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/event_groups.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066153" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/rtos/osif/osif.h" FileDate="2021-04-29, 15:28:01" FileAge="1619681281669" FileType="1048576" CompNumb="8" />
+      <File Name="Generated_Code/FreeRTOS.c" FileDate="1970-01-01, 07:59:59" FileAge="-1" FileType="45637" CompNumb="10" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/projdefs.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066223" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/queue.c" FileDate="2021-04-29, 13:11:06" FileAge="1619673066083" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/tasks.c" FileDate="2021-04-29, 13:11:06" FileAge="1619673066113" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/platform/devices/device_registers.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646414" FileType="1048576" CompNumb="1" />
+      <File Name="Generated_Code/lpuart1.h" FileDate="2021-04-28, 14:52:25" FileAge="1619592745829" FileType="45637" CompNumb="5" />
+      <File Name="SDK/platform/drivers/inc/edma_driver.h" FileDate="2021-04-28, 14:52:25" FileAge="1619592745767" FileType="1048576" CompNumb="6" />
+      <File Name="Generated_Code/lpuart1.c" FileDate="2021-04-28, 14:52:25" FileAge="1619592745829" FileType="45637" CompNumb="5" />
+      <File Name="SDK/platform/drivers/src/interrupt/interrupt_manager.c" FileDate="2021-04-28, 14:50:46" FileAge="1619592646351" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/drivers/inc/lpuart_driver.h" FileDate="2021-04-28, 14:52:25" FileAge="1619592745813" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/stack_macros.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066253" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/platform/devices/callbacks.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646414" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/sim_hw_access.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646383" FileType="1048576" CompNumb="3" />
+      <File Name="Documentation/uart_demo_Settings.xml" FileDate="2021-04-29, 13:11:06" FileAge="1619673066383" FileType="3072" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/semphr.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066236" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646429" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/portable/MemMang/heap_2.c" FileDate="2021-04-29, 13:11:06" FileAge="1619673066293" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/stream_buffer.c" FileDate="2021-04-29, 13:11:06" FileAge="1619673066113" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/stream_buffer.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066253" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2021-04-28, 14:50:46" FileAge="1619592646429" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/croutine.c" FileDate="2021-04-29, 13:11:06" FileAge="1619673066063" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/portable/GCC/ARM_CM4F/portmacro.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066313" FileType="1048576" CompNumb="10" />
+      <File Name="Generated_Code/dmaController1.h" FileDate="2021-04-28, 14:52:25" FileAge="1619592745845" FileType="45637" CompNumb="6" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/list.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066168" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/smc_hw_access.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646398" FileType="1048576" CompNumb="3" />
+      <File Name="Generated_Code/dmaController1.c" FileDate="2021-04-28, 14:52:25" FileAge="1619592745829" FileType="45637" CompNumb="6" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/mpu_wrappers.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066213" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/platform/devices/S32K144/include/S32K144.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646461" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/rtos/osif/osif_freertos.c" FileDate="2021-04-29, 13:11:06" FileAge="1619673066043" FileType="1048576" CompNumb="8" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/task.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066263" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/timers.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066283" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/platform/drivers/src/edma/edma_driver.c" FileDate="2021-04-28, 14:52:25" FileAge="1619592745735" FileType="1048576" CompNumb="6" />
+      <File Name="SDK/platform/drivers/src/lpuart/lpuart_hw_access.h" FileDate="2021-04-28, 14:52:25" FileAge="1619592745782" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646367" FileType="1048576" CompNumb="3" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2021-04-30, 09:12:58" FileAge="1619745178629" FileType="45637" CompNumb="2" />
+      <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646351" FileType="1048576" CompNumb="4" />
+      <File Name="SDK/platform/drivers/src/lpuart/lpuart_hw_access.c" FileDate="2021-04-28, 14:52:25" FileAge="1619592745782" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c" FileDate="2021-04-28, 14:50:46" FileAge="1619592646351" FileType="1048576" CompNumb="3" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2021-04-30, 09:12:58" FileAge="1619745178635" FileType="45637" CompNumb="2" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/StackMacros.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066243" FileType="1048576" CompNumb="10" />
+      <File Name="Generated_Code/FreeRTOSConfig.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066333" FileType="45637" CompNumb="10" />
+      <File Name="SDK/platform/drivers/src/lpuart/lpuart_irq.h" FileDate="2021-04-28, 14:52:25" FileAge="1619592745798" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/drivers/src/edma/edma_hw_access.h" FileDate="2021-04-28, 14:52:25" FileAge="1619592745751" FileType="1048576" CompNumb="6" />
+      <File Name="SDK/platform/drivers/src/pins/pins_gpio_hw_access.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646320" FileType="1048576" CompNumb="2" />
+      <File Name="SDK/platform/drivers/src/lpuart/lpuart_irq.c" FileDate="2021-04-28, 14:52:25" FileAge="1619592745798" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/drivers/src/edma/edma_hw_access.c" FileDate="2021-04-28, 14:52:25" FileAge="1619592745735" FileType="1048576" CompNumb="6" />
+      <File Name="SDK/platform/devices/S32K144/startup/system_S32K144.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646429" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/FreeRTOS.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066163" FileType="1048576" CompNumb="10" />
+      <File Name="SDK/platform/devices/S32K144/startup/system_S32K144.c" FileDate="2021-04-28, 14:50:46" FileAge="1619592646445" FileType="1048576" CompNumb="1" />
+      <File Name="SDK/platform/drivers/src/clock/S32K1xx/pcc_hw_access.h" FileDate="2021-04-28, 14:50:46" FileAge="1619592646367" FileType="1048576" CompNumb="3" />
+      <File Name="SDK/rtos/FreeRTOS_S32K/Source/include/croutine.h" FileDate="2021-04-29, 13:11:06" FileAge="1619673066143" FileType="1048576" CompNumb="10" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>8</CodeGenReference>
+</CodeGenerationInfo>
